@@ -1,0 +1,47 @@
+2026-05-16 07:47:13,475 — INFO — Scheduler started — pipeline runs every hour
+2026-05-16 07:47:13,475 — INFO — Also scheduled at 06:00, 14:00, 22:00 daily
+2026-05-16 07:47:13,475 — INFO — Press Ctrl+C to stop
+2026-05-16 07:47:13,475 — INFO — ==================================================
+2026-05-16 07:47:13,475 — INFO — Pipeline started
+2026-05-16 07:47:13,475 — INFO — ==================================================
+2026-05-16 07:47:13,476 — INFO — Running: ETL Pipeline...
+2026-05-16 07:47:18,489 — ERROR — Traceback (most recent call last):
+  File "C:\Users\yubyu\OneDrive\Desktop\chemical_plant_dashboard\etl\etl_pipeline.py", line 30, in <module>
+    print(f"Date range: {df['timestamp'].min()} \u2192 {df['timestamp'].max()}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yubyu\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 32: character maps to <undefined>
+
+2026-05-16 07:47:18,490 — INFO — Running: KPI Calculation...
+2026-05-16 07:47:28,146 — ERROR — Traceback (most recent call last):
+  File "C:\Users\yubyu\OneDrive\Desktop\chemical_plant_dashboard\etl\calculate_kpis.py", line 208, in <module>
+    print(f"  \u2705 {table_name}: {len(df_kpi):,} rows loaded")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yubyu\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
+
+2026-05-16 07:47:28,146 — INFO — Running: Validation...
+2026-05-16 07:47:29,328 — ERROR — Traceback (most recent call last):
+  File "C:\Users\yubyu\OneDrive\Desktop\chemical_plant_dashboard\notebooks\validation.py", line 34, in <module>
+    print("\n\u2500\u2500 OEE Formula Validation \u2500\u2500")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yubyu\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+
+2026-05-16 07:47:29,329 — INFO — ==================================================
+2026-05-16 07:49:59,108 — INFO — Scheduler started — pipeline runs every hour
+2026-05-16 07:49:59,108 — INFO — Also scheduled at 06:00, 14:00, 22:00 daily
+2026-05-16 07:49:59,108 — INFO — Press Ctrl+C to stop
+2026-05-16 07:49:59,108 — INFO — ==================================================
+2026-05-16 07:49:59,109 — INFO — Pipeline started
+2026-05-16 07:49:59,109 — INFO — ==================================================
+2026-05-16 07:49:59,109 — INFO — Running: ETL Pipeline...
+2026-05-16 07:50:32,340 — INFO — Running: KPI Calculation...
+2026-05-16 07:50:41,931 — INFO — Running: Validation...
+2026-05-16 07:50:51,616 — INFO — ==================================================
