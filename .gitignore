@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Data files (too large for Git)
+data/raw/
+*.csv
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PostgreSQL credentials
+*.pgpass
+config.ini
