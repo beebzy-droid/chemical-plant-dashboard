@@ -63,7 +63,7 @@ python notebooks/validation.py
 
 ## 📸 Screenshots
 ### Dashboard Overview
-![Dashboard](docs/anomaly_summary.png)
+![Dashboard](docs/Dashboard Overview.png)
 
 ### SPC Control Charts
 ![SPC Charts](docs/spc_charts.png)
