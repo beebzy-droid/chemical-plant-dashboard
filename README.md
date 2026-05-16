@@ -35,6 +35,8 @@ a full year (314,499 sensor readings).
 - Performance (75%) is dragging OEE below the 85% target
 
 ## 📁 Project Structure
+
+```
 chemical_plant_dashboard/
 ├── data/         → Raw & processed datasets
 ├── sql/          → Database schema & queries
@@ -42,6 +44,7 @@ chemical_plant_dashboard/
 ├── notebooks/    → Analysis & validation
 ├── dashboard/    → Tableau files
 └── docs/         → Documentation & charts
+```
 
 ## 🚀 How to Run
 ### 1. Install dependencies
