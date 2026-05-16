@@ -63,7 +63,7 @@ python notebooks/validation.py
 
 ## 📸 Screenshots
 ### Dashboard Overview
-![Dashboard](docs/Dashboard Overview.png)
+![Dashboard](docs/dashboard_overview.png)
 
 ### SPC Control Charts
 ![SPC Charts](docs/spc_charts.png)
