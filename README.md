@@ -81,24 +81,6 @@ chemical_plant_dashboard/
 └── docs/         → Documentation & charts
 ```
 
-## 🚀 How to Run
-### 1. Install dependencies
-pip install faker numpy pandas sqlalchemy psycopg2-binary 
-matplotlib seaborn scipy schedule
-
-### 2. Set up PostgreSQL database
-psql -U postgres
-CREATE DATABASE chemical_plant;
-\c chemical_plant
-\i sql/schema.sql
-
-### 3. Run the pipeline
-python etl/generate_data.py
-python etl/ingest_data.py
-python etl/etl_pipeline.py
-python etl/calculate_kpis.py
-python notebooks/validation.py
-
 ## 📸 Screenshots
 ### Dashboard Overview
 ![Dashboard](docs/dashboard_overview.png)
