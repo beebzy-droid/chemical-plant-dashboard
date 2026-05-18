@@ -1,5 +1,11 @@
 # 🏭 Chemical Plant Performance Monitoring Dashboard
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Tableau](https://img.shields.io/badge/Tableau-Public-orange.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+
 A full end-to-end data engineering project that simulates, 
 processes, and visualizes real-time chemical plant KPIs.
 
@@ -73,3 +79,14 @@ python notebooks/validation.py
 
 ### Correlation Analysis
 ![Correlation](docs/correlation_analysis.png)
+
+## 📜 License & Attribution
+
+This project was built and designed by **beebzy-droid**.
+
+Licensed under the [MIT License](LICENSE) — you are free
+to use this code but must include attribution linking
+back to this repository.
+
+© 2026 beebzy-droid
+🔗 https://github.com/beebzy-droid/chemical-plant-dashboard
